@@ -10,9 +10,10 @@
 
 import time
 import board
+import busio
 
 # To use default I2C bus (most boards)
-i2c = board.I2C()  # uses board.SCL and board.SDA
+i2c = busio.I2C(board.SCL,board.SDA)  # uses board.SCL and board.SDA
 # i2c = board.STEMMA_I2C()  # For using the built-in STEMMA QT connector on a microcontroller
 
 # To create I2C bus on specific pins
