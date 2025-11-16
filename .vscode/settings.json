@@ -1,15 +1,14 @@
 {
     "python.languageServer": "Pylance",
     "python.analysis.diagnosticSeverityOverrides": {
-        "reportMissingModuleSource": "none",
-        "reportShadowedImports": "none"
+        "reportMissingModuleSource": "none"
     },
     "python.analysis.extraPaths": [
-        "c:\\Users\\tiger\\.vscode\\extensions\\wmerkens.vscode-circuitpython-v2-0.3.3\\boards\\0x239A\\0x80F4",
-        "c:\\Users\\tiger\\.vscode\\extensions\\wmerkens.vscode-circuitpython-v2-0.3.3\\stubs",
-        "c:\\Users\\tiger\\AppData\\Roaming\\Code\\User\\globalStorage\\wmerkens.vscode-circuitpython-v2\\bundle\\20250319\\adafruit-circuitpython-bundle-py-20250319\\lib"
+        "c:\\Users\\work\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.20-win32-x64\\boards\\0x2886\\0x0042",
+        "c:\\Users\\work\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.20-win32-x64\\stubs",
+        "c:\\Users\\work\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20251113\\adafruit-circuitpython-bundle-py-20251113\\lib"
     ],
-    "circuitpython.board.version": "9.2.6",
-    "circuitpython.board.vid": "0x239A",
-    "circuitpython.board.pid": "0x80F4"
+    "circuitpython.board.version": "10.0.3",
+    "circuitpython.board.vid": "0x2886",
+    "circuitpython.board.pid": "0x0042"
 }
